@@ -30,14 +30,13 @@ classification:
   - 3
   - 2
   - 4
-date: 2022-03-09T15:20:58.130Z
+date: 2022-03-21T22:16:43.660Z
 cmGuide: " "
 ---
 
-The <Specialization name="Dragonhunter"/> is good and easy to play build for fractals. It has great burst options and deals high consistent damage while providing medium defiance bar damage and <Condition name="Vulnerability"/>.
-The build offers a unique party wide offensive buff by sharing <Skill name="bane signet"/> for 216 <Attribute name="Power"/> and also strong on-demand defensive support with <Skill id="30039"/> and other useful skills such as <Skill id="9251"/> and <Skill name="standyourground"/>.
-The <Specialization name="Dragonhunter" text="Power Dragonhunter"/> is rather self-sufficient thanks to blocks from <Skill name="Shieldofwrath"/>, <Skill name="shieldofcourage"/> and a very strong heal skill (<Skill name="litanyofwrath"/>) that makes the player invincible for 6 seconds.
-It benefits from slaying potions and slaying sigils such as <Item id="50082"/> and <Item name="Serpent Slaying" type="Sigil"/>.
+<Specialization name="Dragonhunter"/> is good and easy to play build for fractals. It has great burst options and deals high consistent damage while providing medium defiance bar damage and <Condition name="Vulnerability"/>. The build offers a unique party wide offensive buff by sharing <Skill name="bane signet"/> for 216 <Attribute name="Power"/> and also strong on-demand defensive support with <Skill id="30039"/> and other useful skills such as <Skill id="9251"/> and <Skill name="standyourground"/>.
+
+<Specialization name="Dragonhunter" text="Power Dragonhunter"/> is rather self-sufficient thanks to blocks from <Skill name="Shieldofwrath"/>, <Skill name="shieldofcourage"/> and a very strong heal skill (<Skill name="litanyofwrath"/>) that makes the player invincible for 6 seconds. It also benefits from slaying potions and slaying sigils such as <Item id="50082"/> and <Item name="Serpent Slaying" type="Sigil"/>.
 
 <Divider text="Equipment"/>
 
@@ -591,7 +590,7 @@ If you have a Mistlock Singularity present you can use these skills for precasts
 <GridItem xs="12" sm="6">
 <Card title="Golem Rotation">
 
-<Video youtube="aIUZegO1_EA" caption="by Nagy"/>
+<Video youtube="faIaiHFG1qI" caption="by Nagy"/>
 </Card>
 </GridItem>
 </Grid>

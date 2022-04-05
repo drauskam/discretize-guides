@@ -19,10 +19,10 @@ code: "[&DQIEHzMWRCunAAAAAAAAAKwACgCqAKIBnACcAAAAAAAAAAAAAAAAAAAAAAA=]"
 classification:
   - 3
   - 3
+  - 2
   - 3
-  - 3
-  - 3
-date: 2022-03-11T01:08:17.854Z
+  - 4
+date: 2022-03-28T17:47:07.547Z
 ---
 
 <Warning>
@@ -130,6 +130,8 @@ The <Specialization text="Power Bladesworn" name="Bladesworn"/> is one of the cl
 
 This build is future proof for upgrading to higher <Attribute name="Agony Resistance"/> later without overwriting runes. However, most people would profit more from the <Item name="eagle" text="Eagle"/> rune build due to not relying on the <Item name="scholar" text="Scholar"/> buff. No <Trait name="Spotter"/> assumed.
 
+Check the [gear optimizer](https://optimizer.discretize.eu/) for more gear variants!
+
 </Character>
 <Character title="162 AR + Eagle Rune" gear={{
   "profession": "Warrior",
@@ -221,6 +223,8 @@ This build is future proof for upgrading to higher <Attribute name="Agony Resist
 
 Optionally 1 <Item id="37132"/>. Without that infusion the <Attribute name="Critical Chance"/> is at 99.76%. No <Trait name="Spotter"/> assumed.
 
+Check the [gear optimizer](https://optimizer.discretize.eu/) for more gear variants!
+
 </Character>
 <Character title="222 AR" gear={{
   "profession": "Warrior",
@@ -309,6 +313,8 @@ Optionally 1 <Item id="37132"/>. Without that infusion the <Attribute name="Crit
     "assumedBuffs": [{"id": "Might", "type": "Boon"}, {"id": "Fury", "type": "Boon"}, {"gw2id": 1786, "type": "Trait"}, {"gw2id": 12497, "type": "Skill"}, {"gw2id": 14407, "type": "Skill"}, {"gw2id": 14405, "type": "Skill"}, {"gw2id": 14404, "type": "Skill"}]
 }}>
 
+Check the [gear optimizer](https://optimizer.discretize.eu/) for more gear variants!
+
 </Character>
 </CharacterWithAr>
 
@@ -339,6 +345,10 @@ If the encounter is short enough to precast Banners and swap to different skills
   elite="Signet of Rage"
 />
 
+<Warning>
+
+Due to not actively using <Skill name="Signet of Fury"/> in the rotation you can adjust your gear using [gear optimizer](https://optimizer.discretize.eu/) to take advantage fo the extra <Attribute name="Precision"/>!
+</Warning>
 </Card>
 </GridItem>
 
@@ -347,13 +357,15 @@ If the encounter is short enough to precast Banners and swap to different skills
 
 |                                                           |                                                                                                                                                                                              |
 | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <Skill name="To The Limit" size="big" disableText/> | Alternative for extra Flow generation. However you will miss out on the extra damage from <Trait name="Peak Performance"/>.
 | <Skill name="For Great Justice!" size="big" disableText/> | If your groups <Boon name="Might"/> is not 25, take <Skill name="Forgreatjustice"/>. It is a bigger DPS increase than <Skill name="signetofmight"/>!                                         |
-| <Skill name="Signet of fury" size="big" disableText/>     | Grants <Attribute name="Precision" text="180 Precision"/> passively; grants 360 <Attribute name="Precision"/> and <Attribute name="Ferocity"/> on use and fills up the entire adrenaline bar. |
+| <Skill name="Signet of fury" size="big" disableText/>     | Grants <Attribute name="Precision" text="180 Precision"/> passively; grants 360 <Attribute name="Precision"/> and <Attribute name="Ferocity"/> on use as well as additional Flow. |
 | <Skill name="Signet of might" size="big" disableText/>    | Flat 180 power buff. Only take this when no other utility is needed.                                                                                                                         |
 | <Skill name="Battle Standard" size="big" disableText/>    | Can be used on Arkk if your <Specialization name="Renegade"/> is able to solo the CC bar.                                                                                                    |
 | <Skill name="onmymark" size="big" disableText/>           | Can be used to pull Krait from the side altars at the Nightmare CM fractal.                                                                                                                  |
 | <Skill name="featherfootgrace" size="big" disableText/>   | Grants <Effect name="Superspeed"/> for skips.                                                                                                                                                |
 | <Skill name="bullscharge" size="big" disableText/>        | 300 CC, gives <Trait name="Peakperformance"/>.                                                                                                                                               |
+| <Skill name="Tactical Reload" size="big" disableText/>    | Used to recharge ammo on your profession skills.                                                                                                                                       |
 
 </Card>
 <Card title="CC skills">
@@ -389,10 +401,8 @@ For that reason you can find a video with openers, that are efficient to use her
 
 - Stack <Boon name="Might"/>:
   - Use both charges of <Skill name="For Great Justice!"/>.
-  - Drop a fire field with <Skill name="Flames of War"/>.
   - Use <Skill name="Call of Valor"/> and <Skill id="14393"/> on offhand Warhorn to blast <Boon name="Might"/>.
 - Precast damage skills:
-  - (optional) <Skill name="Flames of War"/>
   - (optional) <Skill id="14393"/> for two stacks of a 25% damage modifier
   - Cast <Skill name="Mending"/> immediately before the boss becomes vulnerable.
 
@@ -402,22 +412,19 @@ For that reason you can find a video with openers, that are efficient to use her
 
 <GridItem xs="12" sm="6">
 
-<Card title="Rotation">
+<Card title="Opener">
 
 Start in <Skill name="Unsheathe Gunsaber"/>
 
 1. Cyclone Trigger in <Skill name="Unsheathe Gunsaber"/> (Skill 4)
 2. <Skill name="Sheathe Gunsaber" />
 3. <Skill name="Dragons Roar" />
-4. <Skill name="Gunstinger" />
-5. <Skill name="Cyclone Axe" />
-6. <Skill name="Throw Axe" />
-7. <Skill name="Chop" /> -> <Skill name="Double Chop" /> -> <Skill name="Triple Chop" />
-8. <Skill name="Unsheathe Gunsaber" />
-9. <Skill name="Dragon Trigger" />
-10. Dragon Slash-Force in <Skill name="Dragon Trigger"/> (Skill 1)
-
-_Repeat from Step 1_
+4. <Skill name="Cyclone Axe" />
+5. <Skill name="Gunstinger" />
+6. <Skill name="Chop" /> -> <Skill name="Double Chop" /> -> <Skill name="Triple Chop" />
+7. <Skill name="Unsheathe Gunsaber" />
+8. <Skill name="Dragon Trigger" />
+9. Dragon Slash-Force in <Skill name="Dragon Trigger"/> (Skill 1) 
 
 </Card>
 
@@ -426,7 +433,7 @@ _Repeat from Step 1_
 <GridItem xs="12" sm="6">
 <Card title="Golem Rotation">
 
-<Video youtube="" caption=""/>
+<Video youtube="jT02tOOVGC8" caption="by Costa Primo"/>
 </Card>
 </GridItem>
 </Grid>
