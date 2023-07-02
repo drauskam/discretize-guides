@@ -19,7 +19,7 @@ classification:
   - 4
   - 2
   - 3
-date: "2023-07-02T13:35:04.569Z "
+date: "2023-07-02T14:02:33.574Z "
 benchmark:
   small:
     dps: 34302
@@ -32,7 +32,7 @@ The <Specialization name="Reaper" text="Power Reaper" /> has multiple offensive 
 options (<Control name="Pull" />, boon corruptions for <Instability name="No Pain, No Gain" />
 , <Condition name="Blinded" />, <Condition name="Immobile" />, etc.) <Specialization
   name="Reaper"
-  text="Power Reaper"
+  text="Power Reaper" 
 /> can modify itself to fit many given situations in fractals.
 
 It benefits from slaying potions such as <Item id="50082"/> and <Item name="Impact" type="Sigil"/>.
